@@ -1,17 +1,14 @@
-Section: metapackages
+Source: lmd-desktop
+Maintainer: lmd Linux <lmd.linux@gmail.com>
+Section: misc
 Priority: important
-Homepage: https://lmd-linux.github.io/lmd-desktop
 Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
 
 Package: lmd-desktop
-Version: 1.2
-Maintainer: lmd Linux <lmd.linux@gmail.com>
+Architecture: all
 Depends: dbus-broker, lmd-minimal, lmd-update, network-manager, sudo
 Recommends: firmware-linux, fonts-noto, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base,
  gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gvfs-backends, gvfs-fuse,
  i965-va-driver-shaders, intel-media-va-driver-non-free, lmd-cmdline, pipewire-audio, unrar, unzip
-Architecture: all
-Copyright: license.txt
-Changelog: changelog
-Readme: README.Debian
 Description: Packages for lmd Linux desktop
