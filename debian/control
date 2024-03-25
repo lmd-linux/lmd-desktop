@@ -7,7 +7,9 @@ Package: lmd-desktop
 Version: 1.2
 Maintainer: lmd Linux <lmd.linux@gmail.com>
 Depends: dbus-broker, lmd-minimal, lmd-update, network-manager, sudo
-Recommends: firmware-linux, fonts-noto, gvfs-backends, gvfs-fuse, i965-va-driver-shaders, intel-media-va-driver-non-free, lmd-cmdline, pipewire-audio, unrar, unzip
+Recommends: firmware-linux, fonts-noto, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base,
+ gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gvfs-backends, gvfs-fuse,
+ i965-va-driver-shaders, intel-media-va-driver-non-free, lmd-cmdline, pipewire-audio, unrar, unzip
 Architecture: all
 Copyright: license.txt
 Changelog: changelog
