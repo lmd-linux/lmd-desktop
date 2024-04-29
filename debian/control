@@ -7,8 +7,21 @@ Build-Depends: debhelper-compat (= 13)
 
 Package: lmd-desktop
 Architecture: all
-Depends: dbus-broker, lmd-minimal, lmd-update, network-manager, sudo
-Recommends: firmware-linux, fonts-noto, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base,
- gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gvfs-backends, gvfs-fuse,
- i965-va-driver-shaders, intel-media-va-driver-non-free, lmd-cmdline, pipewire-audio, unrar, unzip
+Depends:
+ dbus-broker,
+ gstreamer1.0-plugins-bad,
+ gstreamer1.0-plugins-base,
+ gstreamer1.0-plugins-good,
+ gstreamer1.0-plugins-ugly,
+ gvfs-fuse,
+ i965-va-driver-shaders,
+ intel-media-va-driver-non-free,
+ lmd-cmdline,
+ lmd-minimal,
+ lmd-update,
+ network-manager,
+ pipewire-audio,
+ sudo,
+ unrar,
+ unzip
 Description: Packages for lmd Linux desktop
