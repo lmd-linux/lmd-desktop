@@ -9,6 +9,7 @@ Package: lmd-desktop
 Architecture: all
 Depends:
  dbus-broker,
+ fonts-noto,
  gstreamer1.0-plugins-bad,
  gstreamer1.0-plugins-base,
  gstreamer1.0-plugins-good,
